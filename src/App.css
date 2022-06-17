@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.kv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77px;
+  height: 77px;
+  background-color: crimson;
+  margin: 7px;
+  border-radius: 7px;
+}
+
+.kvc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.circle {
+  /* border-radius: 50%; */
+  background-color: antiquewhite;
+  padding: 40px;
+  margin-bottom: 20px;
 }
